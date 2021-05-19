@@ -7,3 +7,10 @@ O programa terá as seguintes funcionalidades:
  - cadastro de alunos e suas notas
  - relatório de alunos e suas notas
  - apuração de média geral da turma
+
+Serão exercitados os seguintes recursos:
+ - Uso de condicionais (swich)
+ - Uso de repetições (whille)
+ - Criação de métodos
+ - Criação de structs
+ 

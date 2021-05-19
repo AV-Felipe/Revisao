@@ -6,8 +6,10 @@ namespace Revisao
     {
         static void Main(string[] args)
         {
-            string opcaoUsurio = obterOpcaoUsuario();
+            Alunos[] aluno = new Alunos[5];
 
+            string opcaoUsurio = obterOpcaoUsuario();
+          
             while (opcaoUsurio.ToUpper() != "X")
             {
                 switch (opcaoUsurio)
