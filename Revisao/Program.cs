@@ -48,7 +48,13 @@ namespace Revisao
                         break;
 
                     case "2":
-                        //TODO: listagem de alunos
+                        foreach (Alunos  alunoListado in aluno)
+                        {
+                            if(alunoListado.Nome!=null)
+                            {
+                            Console.WriteLine($"Aluno: {alunoListado.Nome} - Nota: {alunoListado.Nota}");
+                            }
+                        }
                         break;
 
                     case "3":

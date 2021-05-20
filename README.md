@@ -16,3 +16,5 @@ Serão exercitados os seguintes recursos:
  - Conversão de string para decimal com Parse e TryParse
  - Uso de condicional (if)
  - Criação e manipulação de array
+ - Uso de repetições (foreach)
+ 
