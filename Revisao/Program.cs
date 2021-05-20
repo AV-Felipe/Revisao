@@ -8,7 +8,7 @@ namespace Revisao
         {
             Alunos[] aluno = new Alunos[5];
             int indiceAluno = 0;
-
+            
             string opcaoUsurio = obterOpcaoUsuario();
           
             while (opcaoUsurio.ToUpper() != "X")
@@ -58,7 +58,19 @@ namespace Revisao
                         break;
 
                     case "3":
-                        //TODO: cálculo de média
+                        int contagemAlunos = 0;
+                        decimal mediaTurma = 0;
+                        foreach (Alunos alunoListado in aluno)
+                        {
+                            if(alunoListado.Nome!=null)
+                            {
+                                mediaTurma=mediaTurma+alunoListado.Nota;
+                                contagemAlunos++;
+                            }
+                        }
+                        mediaTurma=mediaTurma/contagemAlunos;
+                        Console.WriteLine($"A média geral da turma é de {mediaTurma}");
+
                         break;
 
                     default:
