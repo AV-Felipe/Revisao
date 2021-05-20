@@ -13,4 +13,6 @@ Serão exercitados os seguintes recursos:
  - Uso de repetições (whille)
  - Criação de métodos
  - Criação de structs
- 
+ - Conversão de string para decimal com Parse e TryParse
+ - Uso de condicional (if)
+ - Criação e manipulação de array
